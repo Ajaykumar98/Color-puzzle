@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form id="form">
+    <input type="submit" value="Submit">
+</form>
+
+<script>
+    window.onload = function () {
+        document.getElementById("form").onsubmit = function () {
+        
+          window.location.href = "http://www.w3fools.com";
+            
+            return false; //prevent the default behavior of the submit event
+        }
+    }        
+</script> 
+</body>
+</html>
