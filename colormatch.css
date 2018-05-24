@@ -1,0 +1,388 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #333333 url(images/9Lk1aF.jpg) repeat-x;
+	text-align: justify;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+	background-color:#252F33;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#header {
+	position:relative;
+	width: 680px;
+	height:99px;
+	margin-left:29px;
+	margin-right:21px;
+	background: url(images/header.png) no-repeat;
+}
+
+#page
+{
+  margin: 0 auto 0 auto; 
+  display: table; 
+  height: 100%;  
+  position: relative; 
+  overflow: hidden; 
+  background: #252F33 url(images/background.png) repeat-y;
+  width: 730px;
+}
+
+
+.title
+{
+position:relative;
+left:30px;
+top:22px;
+text-align:left;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:32px;
+font-weight:bold;
+color:#DEBB73;
+}
+
+.subText
+{
+position:relative;
+left:62px;
+top:26px;
+text-align:left;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+font-weight:bold;
+color:#EEDDB9;
+}
+
+
+.articleTitle
+{
+text-align:left;
+padding-left:25px;
+padding-top:10px;
+padding-bottom:10px;
+color: #6A0020;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:22px;
+font-weight:bold;
+}
+.act
+{
+text-align:center;
+padding-left:25px;
+padding-top:10px;
+padding-bottom:10px;
+color: #6A0020;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:22px;
+font-weight:bold;
+}
+.articleContent
+{
+width:auto;
+position:relative;
+padding-left:25px;
+color:#101214;
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+line-height:27px;
+}
+
+.rightLinks
+{
+width: 102px;
+font-size:11px;
+font-weight:bold;
+line-height:21px;
+height:auto;
+margin-right:-3px;
+background-image:url(images/links_branch.png);
+background-repeat:no-repeat;
+text-align:right;
+float:right;
+}
+
+.rightLinks a:hover
+{
+color:#667765;
+}
+
+
+
+.rightLinks .linkTitle
+{
+font-size:12px;
+font-weight:bold;
+margin-top:10px;
+margin-bottom:32px;
+margin-right:1px;
+color:#2B000D;
+}
+
+
+#bar
+{
+	position:relative;
+	width: 680px;
+	height:57px;
+	margin-left:29px;
+	margin-right:21px;
+	background: url(images/bar.png) no-repeat;
+}
+
+.menuLink
+{
+	height:37px;
+	width: 105px;
+	text-align:center;
+	float:left;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#EAD5A8;
+	padding-top:18px;
+}
+
+.menuLink a
+{
+	color:#EAD5A8;
+}
+
+.menuLink a:hover
+{
+	color:#DEBB73;
+}
+
+
+.menuLink:hover
+{
+	background: url(images/bar2.png) repeat-x;
+}
+
+a
+{
+text-decoration:none;
+color:#252F33;
+}
+
+#pageContent
+{
+width: 680px;
+height:auto;
+padding-bottom:20px;
+}
+
+#footer {
+
+	width: 730px;
+	height:60px;
+	background: url(images/footer.png) no-repeat;
+text-align:center;
+font-size:10px;
+color:#AC8228;
+padding-top:32px;
+}
+
+#footer a
+{
+font-size:10px;
+color:#AC8228;
+}
+.button {
+  display: inline-block;
+  padding: 15px 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+.button:hover {background-color: #ff0000}
+
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.tool {
+  display: inline-block;
+  padding: 15px 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+.tool:hover {background-color: #4CAF50}
+
+
+.tool:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.ani {
+    width: 157px;
+    box-sizing: border-box;
+    border: 2px solid #ff0000;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: whie;
+    background-image: url('images/icon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.ani:focus {
+    width: 40%;
+}
+
+
+.rover {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #800000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.rover span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.rover span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.rover:hover span {
+  padding-right: 25px;
+}
+
+.rover:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.ripple {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.ripple span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.ripple span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.ripple:hover span {
+  padding-right: 25px;
+}
+
+.ripple:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.round {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.round span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.round span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.round:hover span {
+  padding-right: 25px;
+}
+
+.round:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
