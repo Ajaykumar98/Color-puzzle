@@ -20,7 +20,8 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-</style></head>
+</style>
+</head>
 <script src="login.js">
 function red(){
 windows.location.assign("r.html");

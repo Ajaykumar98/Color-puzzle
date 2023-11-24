@@ -9,7 +9,6 @@
 <script src="login.js">
 function red(){
 windows.location.assign("r.html");
-
 }
 </script>
 <body>
